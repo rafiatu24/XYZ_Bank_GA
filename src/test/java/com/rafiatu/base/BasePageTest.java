@@ -3,6 +3,7 @@ package com.rafiatu.base;
 import org.junit.jupiter.api.*;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
+import org.openqa.selenium.chrome.ChromeOptions;
 import org.openqa.selenium.support.ui.WebDriverWait;
 
 import java.time.Duration;
@@ -32,8 +33,11 @@ public class BasePageTest {
      */
     @BeforeAll
     static void setUpBeforeClass() throws Exception {
+        ChromeOptions options = new ChromeOptions();
+        options.addArguments("--headless");
+        options.addArguments("--incognito");
         // Initialize WebDriver with Chrome
-        driver = new ChromeDriver();
+        driver = new ChromeDriver(options);
 
         // Initialize WebDriverWait with a timeout of 80 seconds
         wait = new WebDriverWait(driver, Duration.ofSeconds(80));
