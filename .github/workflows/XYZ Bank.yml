@@ -37,7 +37,7 @@ jobs:
         username: ${{ secrets.SMTP_EMAIL }}
         password: ${{ secrets.SMTP_PASSWORD }}
         subject: "Selenium Test Results - ${{ github.workflow }} (Run #${{ github.run_number }})"
-        to: "etornam.koko@amalitech.com"
+        to: "irafiatu44@gmail.com"
         from: "GitHub Actions <${{ secrets.SMTP_EMAIL }}>"
         body: |
           **Repository**: ${{ github.repository }}
