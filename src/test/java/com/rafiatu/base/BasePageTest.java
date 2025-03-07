@@ -12,11 +12,16 @@ import java.time.Duration;
  * All test classes should extend this class to inherit the WebDriver configuration.
  */
 public class BasePageTest {
+
+
+    
     // Shared WebDriver instance for all tests
     protected static WebDriver driver;
 
     // WebDriverWait instance for explicit waits
     public static WebDriverWait wait;
+    
+
 
     /**
      * Sets up the WebDriver before all tests in a test class.

@@ -26,6 +26,6 @@ public class CustomersTest extends ManagerLoginTest {
         customerButton.click();
 
         // Pause execution for 10 seconds (consider using an explicit wait for better efficiency)
-        Thread.sleep(10000);
+
     }
 }

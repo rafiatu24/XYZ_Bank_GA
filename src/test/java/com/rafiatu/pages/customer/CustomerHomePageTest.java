@@ -20,12 +20,12 @@ public class CustomerHomePageTest extends CustomerLoginPageTest {
     @Test
     void testClickTransaction() throws InterruptedException {
         // Wait until the 'XYZ Bank' button is clickable
-        WebElement transactionButton = wait.until(ExpectedConditions.elementToBeClickable(By.xpath("//button[contains(text(), 'XYZ Bank ')]")));
+        WebElement transactionButton = wait.until(ExpectedConditions.elementToBeClickable(By.xpath("//button[contains(text(), 'Transaction')]")));
 
         // Uncomment the line below if you want to perform the click action
-        // transactionButton.click();
+         transactionButton.click();
 
         // Pause execution for 1 second (not recommended in real tests, prefer explicit waits)
-        Thread.sleep(1000);
+
     }
 }

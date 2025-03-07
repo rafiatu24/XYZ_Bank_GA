@@ -5,24 +5,12 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="b26a4f8d-418b-4768-b671-82b95cc5dc88" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/aws.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/git_toolbox_blame.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/rafiatu/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/rafiatu/base/BasePageTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/rafiatu/pages/customer/CustomerHomePageTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/rafiatu/pages/customer/CustomerLoginPageTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/rafiatu/pages/customer/DepositPageTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/rafiatu/pages/customer/WithdrawalPageTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/rafiatu/pages/manager/AddCustomerPageTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/rafiatu/pages/manager/CustomersTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/rafiatu/pages/manager/DeleteCustomerTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/rafiatu/pages/manager/ManagerLoginTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/rafiatu/pages/manager/OpenAccountTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/rafiatu/base/BasePageTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/rafiatu/base/BasePageTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/rafiatu/pages/customer/CustomerHomePageTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/rafiatu/pages/customer/CustomerHomePageTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/rafiatu/pages/manager/AddCustomerPageTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/rafiatu/pages/manager/AddCustomerPageTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/rafiatu/pages/manager/CustomersTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/rafiatu/pages/manager/CustomersTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -39,6 +27,31 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
+  <component name="GitToolBoxStore">
+    <option name="recentBranches">
+      <RecentBranches>
+        <option name="branchesForRepo">
+          <list>
+            <RecentBranchesForRepo>
+              <option name="branches">
+                <list>
+                  <RecentBranch>
+                    <option name="branchName" value="main" />
+                    <option name="lastUsedInstant" value="1741359076" />
+                  </RecentBranch>
+                  <RecentBranch>
+                    <option name="branchName" value="master" />
+                    <option name="lastUsedInstant" value="1741359075" />
+                  </RecentBranch>
+                </list>
+              </option>
+              <option name="repositoryRootUrl" value="file://$PROJECT_DIR$" />
+            </RecentBranchesForRepo>
+          </list>
+        </option>
+      </RecentBranches>
+    </option>
+  </component>
   <component name="ProjectColorInfo">{
   &quot;associatedIndex&quot;: 2
 }</component>
@@ -52,9 +65,12 @@
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
+    "JUnit.CustomerHomePageTest.executor": "Run",
     "JUnit.CustomerLoginPageTest.executor": "Run",
+    "Maven.Bank_App [clean,test].executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
-    "git-widget-placeholder": "master",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "git-widget-placeholder": "main",
     "kotlin-language-version-configured": "true",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
@@ -65,9 +81,29 @@
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
-  <component name="RunManager">
+  <component name="RunAnythingCache">
+    <option name="myCommands">
+      <command value="mvn clean test" />
+    </option>
+  </component>
+  <component name="RunManager" selected="JUnit.CustomerHomePageTest">
+    <configuration name="CustomerHomePageTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="XYZ_BANK_GA" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.rafiatu.pages.customer.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.rafiatu.pages.customer" />
+      <option name="MAIN_CLASS_NAME" value="com.rafiatu.pages.customer.CustomerHomePageTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="CustomerLoginPageTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="XYZ_BANK" />
+      <module name="XYZ_BANK_GA" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="com.rafiatu.pages.customer.*" />
@@ -81,8 +117,22 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration default="true" type="JetRunConfigurationType">
+      <module name="XYZ_BANK_GA" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="KotlinStandaloneScriptRunConfigurationType">
+      <module name="XYZ_BANK_GA" />
+      <option name="filePath" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.CustomerHomePageTest" />
         <item itemvalue="JUnit.CustomerLoginPageTest" />
       </list>
     </recent_temporary>
@@ -108,7 +158,7 @@
       <option name="presentableId" value="Default" />
       <updated>1741343731415</updated>
       <workItem from="1741343732622" duration="470000" />
-      <workItem from="1741344279485" duration="1372000" />
+      <workItem from="1741344279485" duration="7038000" />
     </task>
     <servers />
   </component>

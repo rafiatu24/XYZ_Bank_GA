@@ -46,6 +46,6 @@ public class AddCustomerPageTest extends ManagerLoginTest {
         alert.accept();
 
         // Pause execution for 1 second (not recommended in real tests, prefer explicit waits)
-        Thread.sleep(1000);
+
     }
 }

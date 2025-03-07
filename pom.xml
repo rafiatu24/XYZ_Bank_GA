@@ -13,6 +13,10 @@
         <maven.compiler.target>23</maven.compiler.target>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
     </properties>
+
+
+
+
     <dependencies>
 <!--        &lt;!&ndash; JUnit 5 (Jupiter) &ndash;&gt;-->
 <!--        <dependency>-->
@@ -32,12 +36,14 @@
             <artifactId>selenium-java</artifactId>
             <version>4.17.0</version>
         </dependency>
-        <dependency>
-            <groupId>org.junit.jupiter</groupId>
-            <artifactId>junit-jupiter</artifactId>
-            <version>RELEASE</version>
-            <scope>test</scope>
-        </dependency>
+       <dependency>
+    <groupId>org.junit.jupiter</groupId>
+    <artifactId>junit-jupiter</artifactId>
+    <version>LATEST</version>  <!-- Deprecated -->
+    <scope>test</scope>
+</dependency>
+
+
     </dependencies>
 
 
